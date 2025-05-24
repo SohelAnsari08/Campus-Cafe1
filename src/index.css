@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+input{
+    box-shadow: 0 0.5px 0 #DBDDEA;
+}
+.poppins{
+    font-family: 'Poppins';
+}
+
+.background{
+    background-image: url(./assets/burgerBg.png);
+}
+.figureshadow{
+    filter:drop-shadow(0 0 10px #333);
+}
+
